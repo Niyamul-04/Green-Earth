@@ -64,6 +64,60 @@
     </div>
   </div>
 </section> 
+
+<section class="text-center py-10 bg-green-100 relative overflow-hidden">
+  <div class="max-w-2xl mx-auto  items-center justify-center text-center">
+    <h1 class="text-4xl  font-extrabold text-gray-900 mb-4">
+      Plant a Tree, Grow a Future
+    </h1>
+    <p class="text-gray-700  ">
+      Join our mission to plant 1 million trees and make the Earth greener for future generations.
+    </p>
+    <a href="#shop"
+       class="inline-block  mt-6 bg-yellow-400 text-gray-900 px-6 py-3 rounded-full font-semibold hover:bg-yellow-300 ">
+      Get Involved
+    </a>
+  </div>
+  <br>
+  <br>
+
+ <div class="absolute bottom-0 left-0 right-0 flex justify-between items-end px-4 md:px-10">
+    <img src="./assets/hero-leaf1.png" alt="Leaf"
+         class="w-28 md:w-75 opacity-90 pointer-events-none select-none">
+    <img src="./assets/hero-leaf2.png" alt="Leaf"
+         class="w-28 md:w-75 opacity-90 pointer-events-none select-none">
+  </div>
+</section>
+
+<div id="spinner" class="fixed inset-0 bg-white bg-opacity-70 flex items-center justify-center hidden z-50">
+    <span class="loading loading-dots loading-lg text-green-600"></span>
+  </div>
+
+
+    <!-- shop section -->
+     <section id="shop" class="flex flex-col md:flex-row">
+    
+    <!-- Sidebar (Categories) -->
+    <aside class="w-full md:w-1/5 bg-green-50 p-4 md:p-6">
+      <h2 class="text-lg font-semibold mb-4">Categories</h2>
+      <ul id="category-list" class="space-y-2"></ul>
+    </aside>
+
+    <!-- Product Grid -->
+    <main class="w-full md:w-3/5 p-4 md:p-6">
+      <h1 class="text-2xl font-bold text-center mb-6">Choose Your Trees</h1>
+      <div id="product-list" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"></div>
+    </main>
+
+    <!-- Cart -->
+    <aside class="w-full md:w-1/5 bg-green-50 p-4 md:p-6">
+
+      <h2 class="text-lg font-semibold mb-4">Your Cart</h2>
+      <ul id="cart-items" class="space-y-2"></ul>
+      <div class="mt-4 font-semibold">Total: <span id="cart-total">৳0</span></div>
+    </aside>
+
+  </section>
     
 </body>
 </html>
